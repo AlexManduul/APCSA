@@ -3,14 +3,11 @@ import java.util.*;
 public class csa7_28 {
 
     public static void main(String[] args) {
-
-        //ArrayList<Integer> arr = new ArrayList<Integer>();
         int[] arr = new int[4];
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter integer value: ");
 
         for(int i = 0; i < 4; i++){
-            //arr.add(scanner.nextInt());
             arr[i] = scanner.nextInt();
         }
         ArrayList<ArrayList<Integer>> number = new ArrayList<>();
