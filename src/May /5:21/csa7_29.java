@@ -4,13 +4,11 @@ public class csa7_29 {
 
     public static void main(String[] args) {
 
-        //ArrayList<Integer> arr = new ArrayList<Integer>();
         int[] arr = new int[3];
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter integer value: ");
 
         for(int i = 0; i < 3; i++){
-            //arr.add(scanner.nextInt());
             arr[i] = (int)(Math.random()*9)+1;
         }
         ArrayList<ArrayList<Integer>> number = new ArrayList<>();
