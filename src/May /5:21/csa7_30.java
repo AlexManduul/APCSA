@@ -6,10 +6,6 @@ public class csa7_30 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of values: ");
         int size = scanner.nextInt();
-<<<<<<< HEAD
-
-=======
->>>>>>> 037a5b1e7c17f5d693bc41775662ec56ce160c01
         int[] values = new int[size];
 
         System.out.print("Enter the values: ");
