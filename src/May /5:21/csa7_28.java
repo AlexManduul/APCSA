@@ -3,10 +3,6 @@ import java.util.*;
 public class csa7_28 {
 
     public static void main(String[] args) {
-<<<<<<< HEAD
-
-=======
->>>>>>> 037a5b1e7c17f5d693bc41775662ec56ce160c01
         int[] arr = new int[4];
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter integer value: ");
