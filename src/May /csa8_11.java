@@ -19,7 +19,7 @@ public class csa8_11 {
     
 
         for(int row = 2; row >=0; row--){
-            for(int col= 0; col < 3; col++){
+            for(int col= 2; col >= 0; col--){
                 if(array[row][col] == 0){
                     System.out.print(" H ");
                 }
