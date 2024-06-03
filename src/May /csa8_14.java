@@ -26,11 +26,8 @@ public class csa8_14 {
     
     for(int row = 0; row < arr.length; row++){
       boolean rowBul = true;
-      for(int col = 0; col < arr[row].length-1; col++){
-          if(arr[row][col] == arr[row][col+1]){
-            rowBul = true;
-          }
-          else{
+     for(int col = 0; col < arr[row].length-1; col++){
+          if(arr[row][col] != arr[row][col+1]){
             rowBul = false;
           }
       }
